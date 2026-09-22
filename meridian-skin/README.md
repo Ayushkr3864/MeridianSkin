@@ -166,7 +166,7 @@ meridian-skin/
 │   └── ...
 │
 ├── public/
-│   └── images/
+│   └── services/
 │
 ├── package.json
 ├── next.config.js
