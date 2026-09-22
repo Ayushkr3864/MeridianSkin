@@ -18,9 +18,7 @@ export default function ConsultationCTA() {
             lg:min-h-[500px]
           "
         >
-          {/* =========================================
-              DECORATIVE BACKGROUND
-          ========================================= */}
+        
 
           <div className="absolute inset-0 pointer-events-none">
             {/* Large soft circle */}
@@ -109,9 +107,6 @@ export default function ConsultationCTA() {
             />
           </div>
 
-          {/* =========================================
-              CONTENT
-          ========================================= */}
 
           <div
             className="
@@ -255,9 +250,7 @@ export default function ConsultationCTA() {
               </div>
             </div>
 
-            {/* =========================================
-                RIGHT SIDE — VISUAL
-            ========================================= */}
+         
 
             <div
               className="

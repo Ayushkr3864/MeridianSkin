@@ -153,7 +153,7 @@ export default function Services() {
                 }}
               >
 
-                {/* BACKGROUND IMAGE */}
+               
 
                 <img
                   src={service.image}
@@ -171,7 +171,7 @@ export default function Services() {
                   "
                 />
 
-                {/* GRADIENT */}
+            
 
                 <div
                   className="
@@ -184,7 +184,7 @@ export default function Services() {
                   "
                 />
 
-                {/* HOVER OVERLAY */}
+               
 
                 <div
                   className="
@@ -197,7 +197,7 @@ export default function Services() {
                   "
                 />
 
-                {/* CONTENT */}
+                
 
                 <div className="relative z-10 flex h-full flex-col justify-between p-7 lg:p-8">
 
@@ -224,7 +224,7 @@ export default function Services() {
                     />
                   </div>
 
-                  {/* TEXT */}
+                 
 
                   <div>
                     <h3
@@ -250,7 +250,7 @@ export default function Services() {
                       {service.description}
                     </p>
 
-                    {/* LINK */}
+                  
 
                     <a
                       href="#contact"

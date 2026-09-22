@@ -47,7 +47,7 @@ export default function TrustStats() {
       id="stats"
       className="border-y border-stone-200 bg-stone-100/60 overflow-hidden"
     >
-      {/* ================= DESKTOP ================= */}
+      
       <div className="hidden md:grid container-content grid-cols-4">
         {STATS.map((stat, i) => (
           <div
@@ -69,7 +69,7 @@ export default function TrustStats() {
         ))}
       </div>
 
-      {/* ================= MOBILE ================= */}
+      
       <div className="md:hidden relative">
         <div className="flex w-max animate-stats-scroll hover:[animation-play-state:paused]">
           
@@ -84,7 +84,7 @@ export default function TrustStats() {
             ))}
           </div>
 
-          {/* Duplicate set for seamless infinite scroll */}
+          
           <div className="flex">
             {STATS.map((stat) => (
               <StatItem

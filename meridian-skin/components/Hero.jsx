@@ -103,7 +103,7 @@ export default function Hero() {
       className="relative bg-stone-50"
       style={{ height: `${slides.length * 100}vh` }}
     >
-      <div className="sticky top-0 h-screen overflow-hidden">
+      <div className="sticky top-20 h-screen overflow-hidden">
        
 
         <div className="absolute inset-0">
@@ -131,7 +131,7 @@ export default function Hero() {
           ))}
         </div>
 
-        {/* ================= CONTENT ================= */}
+     
 
         <div className="relative z-10 h-full">
           <div className="container-content grid h-full grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8">
@@ -222,7 +222,7 @@ export default function Hero() {
               </div>
             </div>
 
-            {/* ================= RIGHT IMAGE CARD ================= */}
+          
 
             <div className="hidden lg:flex lg:col-span-5 items-center justify-center">
               <div className="relative aspect-[4/5] w-full max-w-[480px] rounded-[2rem] overflow-hidden shadow-2xl">
@@ -261,7 +261,7 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* ================= SLIDE INDICATOR ================= */}
+          
 
           <div className="absolute bottom-8 right-8 flex items-center gap-3">
             {slides.map((_, index) => (

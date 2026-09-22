@@ -286,7 +286,7 @@ export default function HowMeridianWorks() {
           </div>
         </div>
 
-        {/* BOTTOM TRUST POINTS */}
+    
         <div
           className={`
             mt-20
